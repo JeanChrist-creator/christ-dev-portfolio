@@ -16,17 +16,18 @@
     <!-- NAVBAR -->
      <nav class="navbar">
         <h2 class="logo">Christ Dev</h2>
-        <ul class="nav-links">
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#parcours">Parcours</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-            
-            
+        <div class="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+</div>
 
-        </ul>
+<ul class="nav-links">
+    <li><a href="#home">Accueil</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
 
      </nav>
     <!--HEADER / ACCUEIL -->
@@ -277,6 +278,23 @@
         </a>
     </p>
 </footer>
+
+<script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links a");
+
+    menuToggle.addEventListener("click", () => {
+        navLinks.style.display = 
+        navLinks.style.display === "flex" ? "none" : "flex";
+    });
+
+    links.forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.style.display = "none";
+        });
+    });
+</script>
     
 </body>
 </html>
