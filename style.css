@@ -174,3 +174,105 @@ section h2 {
 .skills-item p {
     color: #555;
 }
+
+/* PROJETS */
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.projects-item {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.projects-item:hover {
+    transform: translateY(-8px);
+}
+
+.projects-item h4 {
+    color: #0d47a1;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.projects-item p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.projects-item .btn {
+    background-color: #0d47a1;
+    color: white;
+}
+
+.projects-item .btn:hover {
+    background-color: #08306b;
+}
+
+/* CONTACT */
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.contact-item h4 {
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    color: #555;
+}
+
+/* PARCOURS */
+
+.timeline {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.timeline-item {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid #0d47a1;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.timeline-item h4 {
+    color: #0d47a1;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.timeline-item span {
+    color: #777;
+    font-size: 14px;
+}
+
+.timeline-item p {
+    margin-top: 15px;
+    color: #555;
+}
