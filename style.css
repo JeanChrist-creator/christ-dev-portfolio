@@ -101,3 +101,76 @@ body {
     border: 5px solid white;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
+
+/* SECTION A PROPOS */
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #0d47a1;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.about-item {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.about-item:hover {
+    transform: translateY(-8px);
+}
+
+.about-item h4 {
+    color: #0d47a1;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-item p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* COMPETENCES */
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.skills-item:hover {
+    transform: translateY(-8px);
+}
+
+.skills-item h4 {
+    color: #0d47a1;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skills-item p {
+    color: #555;
+}
