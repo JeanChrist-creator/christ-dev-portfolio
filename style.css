@@ -558,3 +558,85 @@ footer a:hover {
     text-decoration: underline;
     color: white;
 }
+
+/* RESEAUX SOCIAUX */
+
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #08306b;
+    transform: translateY(-3px);
+}
+
+/* CONTACT ICONES */
+.contact-item i {
+    font-size: 35px;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    
+}
+
+.contact-item h4 {
+    margin-bottom: 10px;
+}
+
+/* BOUTONS MODERNES */
+
+.btn {
+    display: inline-block;
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #08306b;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ESPACEMENT DES BOUTONS HERO */
+
+.hero .btn {
+    margin: 8px;
+}
+
+@media (max-width: 768px) {
+    .hero .btn {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
